@@ -1,0 +1,56 @@
+/*
+  background-grey: #F4F3F4;
+  button-purple: #192592
+  main-titles dark-grey: #2C303F;
+  paragraph grey: #5b5e6d;
+  nav grey: #5b5e6d;
+*/
+
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font: 400 16px/1.5 "CircularPro, Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: #5b5e6d;
+}
+
+/* ---- typography ---- */
+
+
+/* ---- layout ---- */
+
+
+/* ---- Nav ---- */
+
+
+/* ---- sections ---- */
+
+
+/* ---- footer ---- */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
