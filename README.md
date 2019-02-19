@@ -113,7 +113,7 @@ section *{
 ```
 
 Let's do this game to practice css selectors
-[CSS Diner - Where we feast on CSS Selectors!](https://flukeout.github.io/ target="_blank")
+[CSS Diner - Where we feast on CSS Selectors!](https://flukeout.github.io/)
 
 
 ## Css box model
@@ -221,7 +221,7 @@ As in html, we can add comments to our css:
 ## Colors and typography
 
 Google fonts!
-[Google fonts](https://fonts.google.com/ target="_blank")
+[Google fonts](https://fonts.google.com/)
 
 HTML has three ways to create colors:
 
