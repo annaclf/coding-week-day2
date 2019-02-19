@@ -235,4 +235,5 @@ HTML has three ways to create colors:
 Resources:
 
 [A complete guide to flexbox css tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
 [Flexbox explained with gifs](https://medium.freecodecamp.org/an-animated-guide-to-flexbox-d280cf6afc35)
