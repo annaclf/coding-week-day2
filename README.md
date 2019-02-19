@@ -6,7 +6,7 @@
   - Solution files
   - Code files
 
-#CSS
+## CSS
 
 CSS is a style sheet language that lets you apply styles apply selectively to elements in HTML documents.
 
@@ -78,14 +78,48 @@ a:hover{
 }
 ```
 
+## Access child elements with css
+
+If we want to access a child element in our css we do this with a space between element selectors:
+
+```
+section p{
+  width: 80%;
+}
+```
+
+You can combine the class (or id) selector with other selectors, like element:
+
+```
+section#portfolio{
+  border: 1px solid black;
+}
+```
+
+Universal selector
+
+```
+*{
+  margin: 0;
+}
+```
+
+Select all elements inside of another element:
+
+```
+section *{
+  color: black;
+}
+```
+
+Let's do this game to practice css selectors
+[CSS Diner - Where we feast on CSS Selectors!](https://flukeout.github.io/){:target="_blank"}
+
 As in html, we can add comments to our css:
 
 ```
 /* This is a comment in css */
 ```
-
-
-[CSS Diner - Where we feast on CSS Selectors!](https://flukeout.github.io/)
 
 
 ## Colors and typography
