@@ -113,7 +113,7 @@ section *{
 ```
 
 Let's do this game to practice css selectors
-[CSS Diner - Where we feast on CSS Selectors!](https://flukeout.github.io/){:target="_blank"}
+[CSS Diner - Where we feast on CSS Selectors!](https://flukeout.github.io/)
 
 As in html, we can add comments to our css:
 
@@ -137,12 +137,90 @@ Every HTML element is a rectangular box.
 
 The width of the element = content+border+padding
 
-Border adds a border to the element. The border width is added to the total width and height of the element. We can set the border width, style, and color through its values.
+*Border* adds a border to the element. The border width is added to the total width and height of the element. We can set the border width, style, and color through its values.
 
-Padding references the space between the border of the element and its content. The padding is added to the total width and height of the element too.
+*Padding* references the space between the border of the element and its content. The padding is added to the total width and height of the element too.
 
-Box-Sizing helps you avoid the spacing created by the padding or border properties.
+*Box-Sizing* helps you avoid the spacing created by the padding or border properties.
 
-Margin references the space between the border and the rest of the elements on our website. It doesn’t affect the element’s width and height. It helps you to position elements in a particular place.
+Margin references the space between the border and the rest of the elements on our website. It doesn’t affect the element’s width and height.
+It helps you to position elements in a particular place.
 
-## Media queries
+## css boilerplate
+
+```
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* ---- typography ---- */
+
+body {
+  color: #111;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+/* ---- layout ---- */
+
+.main-header {
+
+}
+
+.main-footer {
+  color: white;
+  padding: 60px 0;
+  background: #111;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* ---- components ---- */
+
+
+/* ---- section ---- */
+
+section#portfolio {
+  // ...
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+```
