@@ -228,3 +228,11 @@ HTML has three ways to create colors:
 - Color name
 - Hexadecimal (hex code)
 - RGB - rgba (alpha)
+
+
+## Flexbox
+
+Resources:
+
+[A complete guide to flexbox css tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[Flexbox explained with gifs](https://medium.freecodecamp.org/an-animated-guide-to-flexbox-d280cf6afc35)
