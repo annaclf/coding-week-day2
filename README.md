@@ -19,6 +19,12 @@ We have seen how to create a separate file for our css and how to reference it i
 </head>
 ```
 
+Every browser (Safari, Chrome, etc.) has its own default ‘user agent’ stylesheet that it uses to make unstyled websites appear more legible.
+
+It is good practice to ‘reset’ the browser’s default styles. You may run into weird conflicts and hard to find problems later on by using your own styles.
+
+[Reset Css](https://meyerweb.com/eric/tools/css/reset/reset.css)
+
 We have also seen how to put a background color to the viewport (body)
 
 ```
@@ -78,11 +84,6 @@ As in html, we can add comments to our css:
 /* This is a comment in css */
 ```
 
-Every browser (Safari, Chrome, etc.) has its own default ‘user agent’ stylesheet that it uses to make unstyled websites appear more legible.
-
-It is good practice to ‘reset’ the browser’s default styles. You may run into weird conflicts and hard to find problems later on by using your own styles.
-
-[Reset Css](https://meyerweb.com/eric/tools/css/reset/reset.css)
 
 [CSS Diner - Where we feast on CSS Selectors!](https://flukeout.github.io/)
 
